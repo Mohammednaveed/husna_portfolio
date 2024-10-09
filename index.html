@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio - Husna Kouser</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Husna Kouser</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero bg-primary text-white text-center">
+    <div class="container">
+      <h1 class="animated fadeIn">Welcome to My Portfolio</h1>
+      <p class="animated fadeIn">Electrical and Electronics Engineering Student</p>
+      <a href="#projects" class="btn btn-light btn-lg animated fadeIn">View Projects</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section py-5">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <p>I am an Electrical and Electronics Engineering Student with a passion for software development and solving technical problems. I have experience in programming languages such as Python, C, and C++ and enjoy working on innovative projects that challenge me to grow my skills.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h3>C++</h3>
+              <p>Intermediate</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h3>Python</h3>
+              <p>Advanced</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h3>C</h3>
+              <p>Intermediate</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h3>HTML</h3>
+              <p>Intermediate</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h3>CSS</h3>
+              <p>Intermediate</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h3>JavaScript</h3>
+              <p>Intermediate</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section py-5">
+    <div class="container">
+      <h2 class="text-center">Projects</h2>
+      <div class="row">
+        <div class="col-md-4 project-item" data-toggle="modal" data-target="#project1">
+          <div class="card">
+            <!-- <img src="project1-thumbnail.jpg" class="card-img-top" alt="Project 1"> -->
+            <div class="card-body">
+              <h5 class="card-title">Solar-Based Wireless EV Charging Station</h5>
+              <p class="card-text">An IoT-enabled system for wireless electric vehicle charging using solar power.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 project-item" data-toggle="modal" data-target="#project2">
+          <div class="card">
+            <!-- <img src="project2-thumbnail.jpg" class="card-img-top" alt="Project 2"> -->
+            <div class="card-body">
+              <h5 class="card-title">Vendor Relationship Scorecard</h5>
+              <p class="card-text">A Python-based tool for evaluating and improving vendor performance.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 project-item" data-toggle="modal" data-target="#project3">
+          <div class="card">
+            <!-- <img src="project3-thumbnail.jpg" class="card-img-top" alt="Project 3"> -->
+            <div class="card-body">
+              <h5 class="card-title">Unit Converter Program</h5>
+              <p class="card-text">A C-based program for converting between different measurement units.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-5 bg-light">
+    <div class="container text-center">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for collaboration or opportunities!</p>
+      <ul class="list-unstyled">
+        <li>Email: <a href="mailto:husnakouser39@gmail.com">husnakouser39@gmail.com</a></li>
+        <li>Phone: +91 7411081470</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/husna-kouser-1b0a48289">Husna Kouser</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2024 Husna Kouser. All Rights Reserved.</p>
+      <div class="social-media">
+        <a href="mailto:husnakouser39@gmail.com" target="_blank" class="text-white"><i class="fa fa-envelope"></i></a>
+        <!-- <a href="https://github.com/your-github" target="_blank" class="text-white"><i class="fab fa-github"></i></a> -->
+        <a href="https://www.linkedin.com/in/husna-kouser-1b0a48289" target="_blank" class="text-white"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Modals -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="project1Label">Solar-Based Wireless EV Charging Station</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="ev.webp" class="card-img-top" alt="Project 1">
+          <p>Detailed description of the IoT-based system using solar power for wireless EV charging.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add more modals for other projects here -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
